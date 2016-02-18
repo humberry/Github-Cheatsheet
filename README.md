@@ -1,36 +1,31 @@
 Github-Cheatsheet
 =================
 
-StaSh v0.6.1
+StaSh v0.6.1  
 
-[~/Documents]$ **mkdir Github**
+[~/Documents]$ **mkdir Github**  
 
-[~/Documents]$ **cd Github**
+[~/Documents]$ **cd Github**  
 
-[Github]$ **mkdir ui-tutorial**
+[Github]$ **mkdir ui-tutorial**  
 
-[Github]$ **cd ui-tutorial**
+[Github]$ **cd ui-tutorial**  
 
-[ui-tutorial]$ **git clone https://github.com/humberry/ui-tutorial.git**
+[ui-tutorial]$ **git clone https://github.com/humberry/ui-tutorial.git**  
 
-[ui-tutorial]$ **ll**
+[ui-tutorial]$ **ll**  
 
-.git (374.0B) 2016-02-16 21:27:36
+.git (374.0B) 2016-02-16 21:27:36  
+...  
+MiniPhotoView.py (3.4K) 2016-02-16 21:28:55  
+...  
 
-...
+[ui-tutorial]$ **edit MiniPhotoView.py**  
 
-MiniPhotoView.py (3.4K) 2016-02-16 21:28:55
-
-...
-
-[ui-tutorial]$ **edit MiniPhotoView.py**
-
-[ui-tutorial]$ **git status**
+[ui-tutorial]$ **git status**  
 
 STAGED
-
 UNSTAGED LOCAL MODS
-
 ['MiniPhotoView.py']
 
 [ui-tutorial]$ **git add MiniPhotoView.py**
