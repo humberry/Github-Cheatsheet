@@ -1,7 +1,7 @@
 Github-Cheatsheet
 =================
-
-StaSh v0.6.1  
+  
+Howto download your own repo, change a file and push it via StaSh v0.6.1  
 
 [~/Documents]$ **mkdir Github**  
 [~/Documents]$ **cd Github**  
