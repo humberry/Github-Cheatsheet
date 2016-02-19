@@ -1,7 +1,8 @@
 Github-Cheatsheet
 =================
   
-### Howto download your own repo, change a file and push it via StaSh v0.6.1  
+  
+#### Howto download your own repo, change a file and push it via StaSh v0.6.1  
 
 [~/Documents]$ **mkdir Github**  
 [~/Documents]$ **cd Github**  
@@ -41,7 +42,7 @@ Push to https://humberry:mysecretpassword@github.com/humberry/ui-tutorial.git su
 success!
   
   
-### Howto create a new repo via StaSh v0.6.1  
+#### Howto create a new repo via StaSh v0.6.1  
 
 First you need a Personal access token.  
 Github login > Settings > Personal access tokens > Generate new token > Token description: OnlyPublicRepo > only check public_repo > Generate token > copy the displayed token to the clipboard  
