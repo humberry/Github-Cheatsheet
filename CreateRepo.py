@@ -12,7 +12,7 @@ if items:
         data = {"name": repo_name, "auto_init": True, "private": False}
         headers = {"Authorization": "token " + token}
         r = requests.post(url, data=json.dumps(data), headers=headers)
-        if str(r) == '<Response [201]>':
+        if r.status_code == 201:
             print 'Success: Repo ' + repo_name + ' is created.'
         else:
             print 'Error: ' + str(r)
