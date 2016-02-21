@@ -2,6 +2,16 @@ Github-Cheatsheet
 =================
   
   
+#### Howto create a new public remote repo via StaSh v0.6.1 or CreateRepo.py  
+
+First you need a Personal access token.  
+Github login > Settings > Personal access tokens > Generate new token > Token description: OnlyPublicRepo > only check public_repo > Generate token > copy the displayed token to the clipboard  
+  
+curl -X 'POST' -H 'Authorization: token TokenFromClipboard' -d '{"name": "RepoNameToBeInsert", "auto_init": true, "private": false}' https://api.github.com/user/repos  
+  
+or use CreateRepo.py
+  
+  
 #### Howto download your own repo, change a file and push it via StaSh v0.6.1  
 
 [~/Documents]$ **mkdir Github**  
@@ -40,13 +50,3 @@ Enter username: humberry
 Enter password: mysecretpassword  
 Push to https://humberry:mysecretpassword@github.com/humberry/ui-tutorial.git successful.  
 success!
-  
-  
-#### Howto create a new public repo via StaSh v0.6.1  
-
-First you need a Personal access token.  
-Github login > Settings > Personal access tokens > Generate new token > Token description: OnlyPublicRepo > only check public_repo > Generate token > copy the displayed token to the clipboard  
-  
-curl -X 'POST' -H 'Authorization: token TokenFromClipboard' -d '{"name": "RepoNameToBeInsert", "auto_init": true, "private": false}' https://api.github.com/user/repos  
-  
-or use CreateRepo.py
